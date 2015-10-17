@@ -637,7 +637,7 @@ function World(stageSelection) {
         // select item in pause mode with enter key
         } else if (evt.keyCode == 13 && pauseMode) {
             if (continueOrRestart)
-                location.reload();
+                location.reload(true);
             else
                 continueGame();
         } 
