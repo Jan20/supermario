@@ -84,6 +84,8 @@ main()
 
 
 <body>
+    <!-- Center the page -->
+    <div id="page-wrap" style="margin:0px auto; width:512px; position:relative"> 
 <style>
     @font-face { font-family: Mario; src: url('SuperMario256.ttf'); }
     @font-face { font-family: Arcade; src: url('ArcadeClassic.ttf'); }
@@ -103,15 +105,15 @@ main()
 </div>
 <!-- HUD -->
 <div id="hud">
-    <div style="position: absolute; left: 100px; top: 20px; width:200px; height:100px;  color: white; font-family: Mario">
+    <div style="position: absolute; left: 50px; top: 20px; width:200px; height:100px;  color: white; font-family: Mario">
         <p>score</br>
         <span id="score" style="font-family: Arcade; font-size: 25px;"></span></p>
     </div>
-    <div style="position: absolute; z-index: 1; left: 200px; top: 20px; width:100px; height:20px; color: white; font-family: Mario">
+    <div style="position: absolute; z-index: 1; left: 175px; top: 20px; width:100px; height:20px; color: white; font-family: Mario">
         <p>lives</br>
         <span id="lives" style="font-family: Arcade; font-size: 25px;"></span></p>
     </div>
-    <div style="position: absolute; z-index: 1; left: 300px; top: 20px; width:100px; height:20px; color: white; font-family: Mario">
+    <div style="position: absolute; z-index: 1; left: 285px; top: 20px; width:100px; height:20px; color: white; font-family: Mario">
         <p>world</br>
         <span id="worldLevel" style="font-family: Arcade; font-size: 25px;"></span></p>
     </div>
@@ -140,5 +142,6 @@ Oops ... your browser doesn't support the HTML5 canvas element
 </canvas>
 <br>
 
+  </div>
 </body>
 </html>
