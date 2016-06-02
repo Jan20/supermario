@@ -1,27 +1,23 @@
-Runs best under:
-Windows 7 / OS X Mavericks
-Google Chrome
-
+## Super Mario: WebGL
 
 Our term project is a platform sidescroller derived from "Mario World" with 
-multiple playable characters and unique stages in the respective worlds.  
-Each character progresses through their level populated with enemies taken
+multiple playable characters and unique stages in the respective worlds.  Each character progresses through their level populated with enemies taken
 from their respective world, complete with power ups consisting of projectiles,
 coins, and more.
 
-The game can be played by opening "proj.html" from the "Code" folder.  To
-ensure proper texture loading in Chrome, make sure to serve the files from a webserver
-to avoid cross origin security errors.
+Make sure your broswer supports WebGL!
 
+
+## Game Info
 Gameplay: 
-Kill enemies by jumping on top of them
-Collect power ups and coins by jumping into special blocks
-Reach the end of the stage without dying
+Kill enemies by jumping on top of them.
+Collect power ups and coins by jumping into special blocks.
+Reach the end of the stage without dying.
 
 Controls:
-Arrow Keys: Player movement (down arrow not used) and menu selection
-Spacebar: Fire projectile (once finding the projectile power up)
-P: Pause the game
+Arrow Keys: Player movement (down arrow not used) and menu selection.
+Spacebar: Fire projectile (once finding the projectile power up).
+P: Pause the game.
 
 Physics: The player and the enemies that jump follow parabolic motion in their ascent 
 and descent.  The player's jump is not exactly parabolic to enhance gameplay as the 
