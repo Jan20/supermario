@@ -108,24 +108,28 @@ function World(stageSelection) {
     this.marioTheme = new Howl({
         urls: ['../Sound/Mario.mp3'],
         loop: true,
+        buffer: true,
         volume: 0.45,
     });
 
     this.samusTheme = new Howl({
         urls: ['../Sound/Samus.mp3'],
         loop: true,
+        buffer: true,
         volume: 0.75,
     });
 
     this.kirbyTheme = new Howl({
         urls: ['../Sound/Kirby.mp3'],
         loop: true,
+        buffer: true,
         volume: 0.45,
     });
 
     this.linkTheme = new Howl({
         urls: ['../Sound/Link.mp3'],
         loop: true,
+        buffer: true,
         volume: 0.45,
     });
 
